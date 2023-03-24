@@ -1,0 +1,27 @@
+PODS:
+  - CYUIComponents (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CYUIComponents (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CYUIComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYUIComponents: be384ace7163af15116ec1d3e61319b72c70a4ef
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: b12f62f886024a1a789b80564d814f3847b3a281
+
+COCOAPODS: 1.12.0

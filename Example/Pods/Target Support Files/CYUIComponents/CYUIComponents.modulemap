@@ -1,0 +1,6 @@
+framework module CYUIComponents {
+  umbrella header "CYUIComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

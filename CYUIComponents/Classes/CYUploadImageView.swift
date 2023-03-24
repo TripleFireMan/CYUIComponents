@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CYUploadImageView: UIView {
+public class CYUploadImageView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.

@@ -10,7 +10,6 @@
 		2084F484F796C10A364842CEEB950CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3DCB9926015AA502CDEC8B7411C078B5 /* Pods-CYUIComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7850AB90043A8E2C6DA94F9CB21AA60 /* Pods-CYUIComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83F8447A400AAA4118C3072552F351D8 /* Pods-CYUIComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267D68D08D064280CE20B788DD4B1CB /* Pods-CYUIComponents_Example-dummy.m */; };
-		B34FF89023997E8CE44E4ED17CA9A89F /* TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB35F5F2F375EA0E19B4BE411AB9945 /* TT.swift */; };
 		B4E68A1589C264270C9586DA8BF939C8 /* CYUIComponents-CYUIComponents in Resources */ = {isa = PBXBuildFile; fileRef = 6CFAF58C0328D3F1D428BB6451361FA1 /* CYUIComponents-CYUIComponents */; };
 		B4FE556BC69DD5E31CF779E5BF139C5D /* CYUIComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6974567BAAB593D1B30D98BB1428EA /* CYUIComponents-dummy.m */; };
 		BD4C7D8BA63EA5DDBDDC73119DCAD310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -40,7 +39,7 @@
 		09F5151A471120C3B67703D1A71CCC0B /* CYUIComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CYUIComponents-Info.plist"; sourceTree = "<group>"; };
 		0EA1F956F106B9601D238D8D61FDB262 /* Image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = CYUIComponents/Assets/Image.xcassets; sourceTree = "<group>"; };
 		1267D68D08D064280CE20B788DD4B1CB /* Pods-CYUIComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYUIComponents_Example-dummy.m"; sourceTree = "<group>"; };
-		1992724D4165C6BB3D5FE29CAD926485 /* CYUIComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CYUIComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1992724D4165C6BB3D5FE29CAD926485 /* CYUIComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CYUIComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C6F0C97611486047F5D14F749C180D0 /* Pods-CYUIComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYUIComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
 		20E37A59E89C670219180174F63C3CCB /* CYUploadImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CYUploadImageView.swift; path = CYUIComponents/Classes/CYUploadImageView.swift; sourceTree = "<group>"; };
 		253823852BC4B4F6CB070E846ACF0B2B /* Pods-CYUIComponents_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYUIComponents_Example-Info.plist"; sourceTree = "<group>"; };
@@ -53,18 +52,17 @@
 		6F5A3972E53BD40235CF83D5569D21D2 /* Pods-CYUIComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYUIComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		706F38DE188A3049AB0E058DAAECD067 /* CYUIComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYUIComponents-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A29036CC8AED91D4AA65B25BBAC272F2 /* Pods-CYUIComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYUIComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD0D35CEE4557CCF82CC24B842FCA40B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD0D35CEE4557CCF82CC24B842FCA40B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B7850AB90043A8E2C6DA94F9CB21AA60 /* Pods-CYUIComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CYUIComponents_Example-umbrella.h"; sourceTree = "<group>"; };
 		C38F6073534E7150F25D21BAA7E515DB /* Pods-CYUIComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYUIComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAB35F5F2F375EA0E19B4BE411AB9945 /* TT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TT.swift; path = CYUIComponents/Classes/TT.swift; sourceTree = "<group>"; };
 		CBA63A65C8E7BEC8F85F9BBE9E286F2F /* Pods-CYUIComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYUIComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CCB5C950954628A584395448D837B473 /* CYUIComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYUIComponents; path = CYUIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F737DC4691E4AAED86EF23ABEFFF29 /* Pods-CYUIComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CYUIComponents_Example.modulemap"; sourceTree = "<group>"; };
 		D197A0D75989D4C7E2EABDFC41E0EFE6 /* CYUIComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYUIComponents.modulemap; sourceTree = "<group>"; };
 		DD5AE83B6295DA68F6F5A048FAE698AF /* Pods-CYUIComponents_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CYUIComponents_Example"; path = Pods_CYUIComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8BE1640D2924C439A3BD3EA9E54F76D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E8BE1640D2924C439A3BD3EA9E54F76D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +174,6 @@
 			children = (
 				20E37A59E89C670219180174F63C3CCB /* CYUploadImageView.swift */,
 				0EA1F956F106B9601D238D8D61FDB262 /* Image.xcassets */,
-				CAB35F5F2F375EA0E19B4BE411AB9945 /* TT.swift */,
 				763F70A6E7B690DA3143425107416BD2 /* Pod */,
 				8C1F7D67C9B2B10FFD7DC20C4FABD1E8 /* Support Files */,
 			);
@@ -288,6 +285,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0376FD4F9C0344A00340551AB5BD45FA = {
+						DevelopmentTeam = M99LZTCK8N;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,7 +360,6 @@
 			files = (
 				B4FE556BC69DD5E31CF779E5BF139C5D /* CYUIComponents-dummy.m in Sources */,
 				E1A0B59576DC0F6CB468B3DF556AD8CD /* CYUploadImageView.swift in Sources */,
-				B34FF89023997E8CE44E4ED17CA9A89F /* TT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,8 +470,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -1,15 +1,34 @@
 PODS:
-  - CYUIComponents (0.1.4)
+  - CYUIComponents (0.1.8):
+    - SDWebImage (= 5.9.5)
+    - SnapKit (= 5.6.0)
+    - YYCategories (= 1.0.4)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
+  - SnapKit (5.6.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - CYUIComponents (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SnapKit
+    - YYCategories
 
 EXTERNAL SOURCES:
   CYUIComponents:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CYUIComponents: 1df4e8061d6c0ddcf1bc2b9a2f3382559d8a2118
+  CYUIComponents: 3b546c2e5f1c7f7dfb1adb9e15e4f24901ed718f
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: 123c0636595b387064ad9383880ab769b9fa97eb
 

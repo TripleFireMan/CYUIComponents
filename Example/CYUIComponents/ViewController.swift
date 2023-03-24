@@ -8,11 +8,19 @@
 
 import UIKit
 import CYUIComponents
+import SnapKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let v = CYUploadImageView.init(frame: .zero)
+        view.addSubview(v)
+        v.backgroundColor = .red
+        v.snp.makeConstraints { make in
+            make.left.right.equalToSuperview().inset(15)
+            make.top.equalTo(15)
+            make.height.equalTo(200)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 

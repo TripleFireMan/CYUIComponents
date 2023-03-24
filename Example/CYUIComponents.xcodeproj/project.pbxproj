@@ -21,25 +21,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4ED349A04418170DD029255E /* Pods_CYUIComponents_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794B03E77E962C0520243813 /* Pods_CYUIComponents_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C7E2AC26DDFAE594BA140F4C /* Pods_CYUIComponents_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE8659E99EFBC4C745430D /* Pods_CYUIComponents_Example.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = CYUIComponents;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		15AA1E46F7CADA1B22130F15 /* Pods-CYUIComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYUIComponents_Example.debug.xcconfig"; path = "Target Support Files/Pods-CYUIComponents_Example/Pods-CYUIComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,9 +41,6 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* CYUIComponents_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYUIComponents_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		794B03E77E962C0520243813 /* Pods_CYUIComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYUIComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		838BC081ACB8F9B0CBD65236 /* Pods-CYUIComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYUIComponents_Tests.release.xcconfig"; path = "Target Support Files/Pods-CYUIComponents_Tests/Pods-CYUIComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B3AE8659E99EFBC4C745430D /* Pods_CYUIComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYUIComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,14 +54,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E2AC26DDFAE594BA140F4C /* Pods_CYUIComponents_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ED349A04418170DD029255E /* Pods_CYUIComponents_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +76,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CYUIComponents */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				483FEB31B3A6F2D89125BB4C /* Pods */,
 				DCBBAC9FBAB53E7CE19469E4 /* Frameworks */,
@@ -110,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* CYUIComponents_Example.app */,
-				607FACE51AFB9204008FA782 /* CYUIComponents_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,23 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,7 +142,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				EEC9B1E1889B1C266BA5D623 /* [CP] Embed Pods Frameworks */,
+				E777DAD3222D2C8BE27127E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,26 +152,6 @@
 			productName = CYUIComponents;
 			productReference = 607FACD01AFB9204008FA782 /* CYUIComponents_Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		607FACE41AFB9204008FA782 /* CYUIComponents_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CYUIComponents_Tests" */;
-			buildPhases = (
-				5F04F0B063583AA076399CCF /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				5A7298817E92950994FA4B06 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = CYUIComponents_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* CYUIComponents_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -235,12 +173,6 @@
 						DevelopmentTeam = M99LZTCK8N;
 						LastSwiftMigration = 0900;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = M99LZTCK8N;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
-					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CYUIComponents" */;
@@ -258,7 +190,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* CYUIComponents_Example */,
-				607FACE41AFB9204008FA782 /* CYUIComponents_Tests */,
 				4CDC9D8629CD825E00A73432 /* package */,
 			);
 		};
@@ -272,13 +203,6 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,47 +248,7 @@
 			shellPath = /Library/Frameworks/Python.framework/Versions/3.7/bin/python3;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# 使用python脚本来实现，每次更改完之后，自动打包，然后发布到kcspec源的功能\n# 步骤\n# 1. 修改podspec的版本号，自增\n# 2. 提交代码并推送到远程\n# 3. 打tag\n# 4. 发布\nimport sys\nimport os\n\n# 更新pod版本，并\ndef changePodSpecVersion(filename):\n    f = open(filename, \"r+\")\n    print (\"文件名为: \", f.name)\n \n    shouldModifire = '' \n    content = ''\n    str_replace = 's.version      = '\n    print(\"修改的行：\",str_replace)\n    for line in f.readlines():                          #依次读取每行  \n        content = content + line\n        line = line.strip()                             #去掉每行头尾空白\n          \n        if str_replace in line:\n            shouldModifire = line\n    #查找到需要修改的行\n    print('shouldModifire%s'%shouldModifire)\n    items = shouldModifire.split('=')\n    print(items)\n    versions = items[1].split('.')\n    versions_last_length = len(versions[2])\n    versions_last = int(versions[2][:versions_last_length-1])\n    versions_last_int = (versions_last) + 1\n    newVersion = str(versions[0])+'.'+ str(versions[1]) + '.' + str(versions_last_int) + '\"'\n    shouldReplaceItem = items[0] + '=' + newVersion\n\n    #替换相应的版本号，并写入文件\n    replaceed = content.replace(shouldModifire,shouldReplaceItem)\n    print('修改版本号:' + shouldModifire + '=>' +  shouldReplaceItem)\n    \n    #写入文件\n    f.seek(0)\n    f.truncate()    \n    f.write(replaceed)\n    f.flush()\n    #关闭文件\n    f.close()\n    return newVersion\n\nos.chdir('..')\n# 如果工作区是干净的，退出脚本执行\nfor line in os.popen(\"git status\").readlines():\n    if \"nothing to commit, working tree clean\" in line.strip() :\n        sys.exit()\n\n# 获取xcode环境变量，使脚本更加通用化，可以直接复制到任何一个pod子库里面了\npod_file_name = \"CYUIComponents\"\n# 修改版本号\nnewversion = changePodSpecVersion(\"{0}.podspec\".format(pod_file_name))\n# 提交代码\nos.system('git add .')\n# 提交并填写信息\nos.system('git commit -a -m \"脚本自动提交\"')\n# 推送\nos.system('git push origin master')\n# 打tag\nos.system('git tag -a {0} -m \"自动tag\"'.format(newversion))\n# 推送tag\nos.system('git push origin {0}'.format(newversion))\n# 翻墙\nos.system('export HTTP_PROXY=http://127.0.0.1:58591; export HTTPS_PROXY=http://127.0.0.1:58591; export ALL_PROXY=socks5://127.0.0.1:51837')\n# 发布版本\nos.system('pod trunk push {0}.podspec --allow-warnings --verbose '.format(pod_file_name))\n# 切换到源目录，并更新\nos.system('pod repo update cocoapods')\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 		};
-		5A7298817E92950994FA4B06 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CYUIComponents_Tests/Pods-CYUIComponents_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYUIComponents_Tests/Pods-CYUIComponents_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F04F0B063583AA076399CCF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CYUIComponents_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EEC9B1E1889B1C266BA5D623 /* [CP] Embed Pods Frameworks */ = {
+		E777DAD3222D2C8BE27127E7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,23 +278,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* CYUIComponents_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -583,50 +451,6 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED4FDB58685173FB20F6A687 /* Pods-CYUIComponents_Tests.debug.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = M99LZTCK8N;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYUIComponents_Example.app/CYUIComponents_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 838BC081ACB8F9B0CBD65236 /* Pods-CYUIComponents_Tests.release.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = M99LZTCK8N;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYUIComponents_Example.app/CYUIComponents_Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -653,15 +477,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CYUIComponents_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

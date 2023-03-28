@@ -1,11 +1,11 @@
 PODS:
-  - CYUIComponents (0.1.8):
-    - SDWebImage (= 5.9.5)
-    - SnapKit (= 5.6.0)
-    - YYCategories (= 1.0.4)
-  - SDWebImage (5.9.5):
-    - SDWebImage/Core (= 5.9.5)
-  - SDWebImage/Core (5.9.5)
+  - CYUIComponents (0.1.9):
+    - SDWebImage
+    - SnapKit
+    - YYCategories
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
   - SnapKit (5.6.0)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
@@ -25,8 +25,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CYUIComponents: 3b546c2e5f1c7f7dfb1adb9e15e4f24901ed718f
-  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  CYUIComponents: aebea1c5e53a6f83ce9cc979170bb34895e459fb
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 

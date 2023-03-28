@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CYUIComponents'
-  s.version      = "0.1.9"
+  s.version      = "0.1.10"
   s.summary          = 'A short description of CYUIComponents.'
 
 # This description is used to generate tags and improve search results.
@@ -30,16 +30,15 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CYUIComponents/Classes/**/*'
   s.swift_versions = '5.0'
-  s.resources = ['CYUIComponents/Assets/*','CYUIComponents/Classes/**/*.xib']
 
-  # s.resource_bundles = {
-  #   'CYUIComponents' => ['CYUIComponents/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'CYUIComponents' => ['CYUIComponents/Assets/*','CYUIComponents/Classes/**/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'SnapKit','5.6.0'
-  s.dependency 'YYCategories','1.0.4'
-  s.dependency 'SDWebImage','5.9.5'
+  s.dependency 'SnapKit'
+  s.dependency 'YYCategories'
+  s.dependency 'SDWebImage'
 end

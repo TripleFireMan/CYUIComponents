@@ -14,3 +14,9 @@ public let confirmStr : String = "confirm"
 public func CYImage(_ name : String?)-> UIImage{
     return UIImage.init(named: name ?? "", in: CYBundle, compatibleWith: nil)!
 }
+
+extension UIImage {
+    public class func cyImage(_ name: String?)->UIImage{
+        return CYImage(name)
+    }
+}

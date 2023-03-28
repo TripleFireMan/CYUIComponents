@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CYUIComponents'
-  s.version      = "0.1.10"
+  s.version      = "0.1.11"
   s.summary          = 'A short description of CYUIComponents.'
 
 # This description is used to generate tags and improve search results.
@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = 'swift 版本的UI组件库，用于日常开发'
 
   s.homepage         = 'https://github.com/TripleFireMan/CYUIComponents.git'

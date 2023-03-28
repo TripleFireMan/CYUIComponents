@@ -99,7 +99,7 @@ public class CYUploadImageView: UIView {
         self.imagePickerVC.editImg = { [unowned self] (img) in
             self.uploadImgBlock?(img!, { [unowned self] (str)in
                 self.uploadedImgUrls.add(str)
-                self.data.add(CYUploadImageModel(img: img, imgurl: .init(string: (str ?? "") as String), isAddBtn: false))
+                self.data.add(CYUploadImageModel(img: img, imgurl: .init(string: (str ) as String), isAddBtn: false))
                 if self.data.count == self.maxCount + 1{
                     self.data.removeObject(at: 0)
                 }

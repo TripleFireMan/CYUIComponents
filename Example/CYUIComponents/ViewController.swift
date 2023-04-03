@@ -15,8 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let v = CYUploadImageView.init(frame: .zero)
         v.uploadImgBlock = {(_ img: UIImage ,_ block:((_ str: NSString)->Void)?) in
-            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(5), execute: {
-                block?("12333333")
+            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1), execute: {
+                block?("https://img0.baidu.com/it/u=3358258296,36412822&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800")
             })
         }
         view.addSubview(v)

@@ -93,15 +93,16 @@ public class CYUploadImageView: UIView {
     
     
     @objc func openCameraOrAlbum(){
+        let vc = UIApplication.shared.keyWindow?.rootViewController
         let imgpicker = UIImagePickerController.init()
-        imgpicker.sourceType = .photoLibrary
+        
         imgpicker.delegate = self.imagePickerVC
         self.imagePickerVC.editImg = { [unowned self] (img) in
             self.uploadImgBlock?(img!, { [unowned self] (str)in
-                self.uploadedImgUrls.add(str)
-                self.data.add(CYUploadImageModel(img: img, imgurl: .init(string: (str ) as String), isAddBtn: false))
+                self.uploadedImgUrls.insert(str, at: 0)
+                self.data.insert(CYUploadImageModel(img: img, imgurl: .init(string: (str ) as String), isAddBtn: false), at: 0)
                 if self.data.count == self.maxCount + 1{
-                    self.data.removeObject(at: 0)
+                    self.data.removeLastObject()
                 }
                 self.colletionview.reloadData()
                 DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(100)) {
@@ -109,10 +110,20 @@ public class CYUploadImageView: UIView {
                 }
             })
         }
-        if let vc = UIApplication.shared.keyWindow?.rootViewController {
-            vc.present(imgpicker, animated: true)
+        let alertCtl = UIAlertController.init(title: "请选择图片上传方式", message: nil, preferredStyle: .actionSheet)
+        let act1 = UIAlertAction(title: "相册", style: .default) { handle in
+            imgpicker.sourceType = .photoLibrary
+            vc?.present(imgpicker, animated: true)
         }
-        
+        let act2 = UIAlertAction(title: "拍照", style: .default) { handle in
+            imgpicker.sourceType = .camera
+            vc?.present(imgpicker, animated: true)
+        }
+        let act3 = UIAlertAction(title: "取消", style: .cancel)
+        alertCtl.addAction(act1)
+        alertCtl.addAction(act2)
+        alertCtl.addAction(act3)
+        vc?.present(alertCtl, animated: true)
     }
     
     public override var intrinsicContentSize: CGSize{
@@ -158,7 +169,7 @@ extension CYUploadImageView: UICollectionViewDelegate, UICollectionViewDataSourc
                 }
             }).count != 0
             if self.data.count == self.maxCount - 1, containsAdd == false{
-                self.data.insert(CYUploadImageModel(img: .cyImage("dd_pj_tp"),imgurl: nil , isAddBtn: true), at: 0)
+                self.data.add(CYUploadImageModel(img: .cyImage("dd_pj_tp"),imgurl: nil , isAddBtn: true))
             }
             self.colletionview.reloadData()
             DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(100)) {

@@ -1,6 +1,6 @@
 {
   "name": "CYUIComponents",
-  "version": "0.1.9",
+  "version": "0.1.14",
   "summary": "A short description of CYUIComponents.",
   "description": "swift 版本的UI组件库，用于日常开发",
   "homepage": "https://github.com/TripleFireMan/CYUIComponents.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:TripleFireMan/CYUIComponents.git",
-    "tag": "0.1.9"
+    "tag": "0.1.14"
   },
   "platforms": {
     "ios": "10.0"

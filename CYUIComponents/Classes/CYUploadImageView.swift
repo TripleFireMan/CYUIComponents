@@ -188,7 +188,7 @@ extension CYUploadImageView: UICollectionViewDelegate, UICollectionViewDataSourc
         if model.isAddBtn == true, self.data.count < self.maxCount + 1{
             self.openCameraOrAlbum()
         }else{
-            print("超过最大限制1111")
+            print("超过最大限制")
         }
     }
 }

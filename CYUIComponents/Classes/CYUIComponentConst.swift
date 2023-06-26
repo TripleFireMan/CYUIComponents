@@ -20,4 +20,5 @@ extension UIImage {
     public class func cyImage(_ name: String?)->UIImage{
         return CYImage(name)
     }
+
 }

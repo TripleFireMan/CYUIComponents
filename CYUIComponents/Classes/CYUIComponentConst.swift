@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 public let CYBundle = CYUIComponentModule.ext_SwiftBundle(podName: "CYUIComponents")!
 
 public let cancelStr: String = "cancel"

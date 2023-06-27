@@ -34,7 +34,7 @@ class CYUIComponentModule : NSObject{
 }
 public
 extension UIView {
-    static func cy_loadFromXib()->Self?{
+    @objc static func cy_loadFromXib()->Self?{
         let name = NSStringFromClass(self).split(separator: ".").last
         guard let n = name else{
             return nil

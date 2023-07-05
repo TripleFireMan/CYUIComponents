@@ -30,6 +30,7 @@ enum MCFontCategory {
         case Semibold   = "Semibold"
     }
     
+    
     case PingFangSC(_ size: Int = 14, _ type: typeface = .Regular)
     case SimSun(_ size: Int = 14)
 }

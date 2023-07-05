@@ -19,5 +19,6 @@ extension UILabel {
         self.numberOfLines = numberOfLines
         self.backgroundColor = backColor
         self.isUserInteractionEnabled = isClick
+        
     }
 }
